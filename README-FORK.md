@@ -3,7 +3,7 @@
 Contains the open api conf and Dockerfile specific to building https://trapi.monarchinitiative.org
 
 
-.env is not commited but looks something like
+.env can be found in monarch configs but looks something like
 ```
 WEB_HOST=0.0.0.0
 WEB_PORT=8000
