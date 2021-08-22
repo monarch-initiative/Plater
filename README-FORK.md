@@ -17,7 +17,7 @@ BL_VERSION=2.1.0
 ```
 
 Build, push to DockerHub, and deploy
-
+```
 docker build --tag plater-dev .
 docker tag plater-dev monarchinitiative/plater-sri:latest
 docker push monarchinitiative/plater-sri:latest
@@ -26,4 +26,5 @@ docker push monarchinitiative/plater-sri:latest
 docker run -d --name plater -p 9000:8000 monarchinitiative/plater-sri:latest
 
 # TODO move this to google cloud and add instructions
+```
 
