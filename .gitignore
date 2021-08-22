@@ -5,3 +5,6 @@ __pycache__
 kubernets
 *coverage
 .idea
+
+# .env contains neo4j secrets
+.env
